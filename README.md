@@ -1,6 +1,6 @@
 # 🧠 Facial Emotion & Liveness Recognition
 
-**Facial Emotion & Liveness Recognition** is a real-time AI application that detects facial emotions and verifies if the user is *live* (not a spoof/photo) using blink detection.  
+**Facial Emotion & Liveness Recognition** is a high-performance Convolutional Neural Network (CNN) application for real-time FER, optimized for low-latency web environments. Built on PyTorch using a fine-tuned MobileNetV2 architecture and Transfer Learning. Key achievements include implementing geometric Anti-Spoofing (Liveness Detection) and optimizing the model for 93.45% accuracy via specialized data handling techniques.  
 
 👉 **Live Demo on Hugging Face:**  
 https://huggingface.co/spaces/Giumi10/facial-emotion-recognition
@@ -56,11 +56,11 @@ python3 -m venv venv
 source venv/bin/activate        # For macOS / Linux
 # venv\Scripts\activate         # For Windows
 ```
-3️⃣ Install dependencies
+### 3️⃣ Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
-4️⃣ RUN the app
+### 4️⃣ RUN the app
 ```bash
 cd src
 python3 run_webcam.py
