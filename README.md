@@ -1,12 +1,6 @@
 # 🧠 Facial Emotion & Liveness Recognition
 
-**Facial Emotion & Liveness Recognition** is a high-performance Convolutional Neural Network (CNN) application for real-time FER, optimized for low-latency web environments. Built on PyTorch using a fine-tuned MobileNetV2 architecture and Transfer Learning. Key achievements include implementing geometric Anti-Spoofing (Liveness Detection) and optimizing the model for 93.45% accuracy via specialized data handling techniques.  
-
-## 🧠 Training the Model (Optional)
-
-The emotion classification model was trained using the **FER+ (Facial Expression Recognition Plus)** dataset, a widely-used dataset for facial emotion recognition tasks.
-
-📁 The training script is available in this repo as: train_model.py
+** 🎭 Facial Emotion & Liveness Recognition** is a high-performance Convolutional Neural Network (CNN) application for real-time FER, optimized for low-latency web environments. Built on PyTorch using a fine-tuned MobileNetV2 architecture and Transfer Learning. Key achievements include implementing geometric Anti-Spoofing (Liveness Detection) and optimizing the model for 93.45% accuracy via specialized data handling techniques.  
 
 👉 **Live Demo on Hugging Face:**  
 https://huggingface.co/spaces/Giumi10/facial-emotion-recognition
@@ -36,7 +30,15 @@ https://huggingface.co/spaces/Giumi10/facial-emotion-recognition
 
 ---
 
-### 📂 Dataset Info
+## 🧠 Training the Model (Optional)
+
+The emotion classification model was trained using the **FER+ (Facial Expression Recognition Plus)** dataset, a widely-used dataset for facial emotion recognition tasks.
+
+📁 The training script is available in this repo as: train_model.py
+
+---
+
+## 📂 Dataset Info
 
 - Dataset used: **FER+** (you can find it [here](https://www.kaggle.com/datasets/msambare/fer2013))
 - Images are grayscale, 48x48 pixels, with labeled facial emotions.
@@ -44,7 +46,7 @@ https://huggingface.co/spaces/Giumi10/facial-emotion-recognition
 
 > ⚠️ **Note:** The dataset is not included in this repository due to high storage memory. Please download it manually if you want to retrain the model.
 
-### 🚀 How to Train
+## 🚀 How to Train
 
 To retrain the model locally:
 
